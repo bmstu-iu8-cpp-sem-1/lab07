@@ -14,7 +14,7 @@
 * в консоли появятся сообщения об ошибках (или не появятся)
 
 ### Задание 1
-* Реализуйте функцию сохранения массива слов в файла
+* Реализуйте функцию сохранения массива слов в файл
 ```cpp
 void saveToFile(const std::string& filename, const std::vector<std::string>& data);
 ```
@@ -40,7 +40,7 @@ struct Book
 void saveToFile(const std::string& filename, const std::vector<Book>& data);
 ```
 
-* Реализуйте функцию загрузки массива слов из файла
+* Реализуйте функцию загрузки массива книг из файла
 ```cpp
 void loadFromFile(const std::string& filename, std::vector<Book>& outData);
 ```
@@ -68,12 +68,12 @@ struct Student
 using Groups = std::map<std::string, std::vector<Student>>;
 ```
 
-* Реализуйте функцию сохранения массива книг в файл
+* Реализуйте функцию сохранения группы в файл
 ```cpp
 void saveToFile(const std::string& filename, const Groups& groups);
 ```
 
-* Реализуйте функцию загрузки массива слов из файла
+* Реализуйте функцию загрузки группы из файла
 ```cpp
 void loadFromFile(const std::string& filename, const Groups& outGroups);
 ```
