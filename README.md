@@ -50,7 +50,7 @@ void loadFromFile(const std::string& filename, std::vector<Book>& outData);
 ```cpp
 enum Score
 {
-    Unsatisfactory = 2,
+    Unsatisfactorily = 2,
     Satisfactorily,
     Good,
     Excellent
