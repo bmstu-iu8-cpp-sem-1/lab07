@@ -39,4 +39,4 @@ struct Student
 using Groups = std::map<std::string, std::vector<Student>>;
 
 void saveToFile(const std::string& filename, const Groups& groups);
-void loadFromFile(const std::string& filename, const Groups& outGroups);
+void loadFromFile(const std::string& filename, Groups& outGroups);
